@@ -3,6 +3,7 @@
 <title>TTLL Scrambler</title>
 </head>
 <script type="text/javascript">
+var algnumber
 function scramble(){
 var choice1 = document.getElementById("Front Bar").checked;
 var choice2 = document.getElementById("Right Bar").checked;
@@ -11,9 +12,11 @@ var choice4 = document.getElementById("Front Opposite").checked;
 var choice5 = document.getElementById("Right Opposite").checked;
 var choice6 = document.getElementById("Both Opposite").checked;
 var choice7 = document.getElementById("PLL").checked;
-var algnumber = Math.floor((Math.random()*93)+1);
+algnumber = Math.floor((Math.random()*93)+1);
 if((choice1=="")&&(choice2=="")&&(choice3=="")&&(choice4=="")&&(choice5=="")&&(choice6=="")&&(choice7=="")){
-alert("Choose at least one set.");}
+alert("Choose at least one set.");
+return false;}
+document.getElementById("algorithm").innerHTML="";
 while(2==2){
 if((choice1==true)&&(algnumber==1)){
 document.getElementById("scramble").innerHTML="insert scramble #1";
@@ -295,7 +298,206 @@ if((choice7==true)&&(algnumber==93)){
 document.getElementById("scramble").innerHTML="insert scramble #93";
 break}
 else{
-algnumber = Math.floor((Math.random()*93)+1);}}}
+algnumber = Math.floor((Math.random()*93)+1);}
+}
+}
+function solution(){
+
+if (typeof algnumber === 'undefined') {
+alert('Please scramble first');return false;}
+ if (algnumber==1){
+   document.getElementById("algorithm").innerHTML="insert algorithm #1";}
+   if (algnumber==2){
+   document.getElementById("algorithm").innerHTML="insert algorithm #2";}
+   if (algnumber==3){
+   document.getElementById("algorithm").innerHTML="insert algorithm #3";}
+   if (algnumber==4){
+   document.getElementById("algorithm").innerHTML="insert algorithm #4";}
+   if (algnumber==5){
+   document.getElementById("algorithm").innerHTML="insert algorithm #5";}
+   if (algnumber==6){
+   document.getElementById("algorithm").innerHTML="insert algorithm #6";}
+   if (algnumber==7){
+   document.getElementById("algorithm").innerHTML="insert algorithm #7";}
+   if (algnumber==8){
+   document.getElementById("algorithm").innerHTML="insert algorithm #8";}
+   if (algnumber==9){
+   document.getElementById("algorithm").innerHTML="insert algorithm #9";}
+   if (algnumber==10){
+   document.getElementById("algorithm").innerHTML="insert algorithm #10";}
+   if (algnumber==11){
+   document.getElementById("algorithm").innerHTML="insert algorithm #11";}
+   if (algnumber==12){
+   document.getElementById("algorithm").innerHTML="insert algorithm #12";}
+   if (algnumber==13){
+   document.getElementById("algorithm").innerHTML="insert algorithm #13";}
+   if (algnumber==14){
+   document.getElementById("algorithm").innerHTML="insert algorithm #14";}
+   if (algnumber==15){
+   document.getElementById("algorithm").innerHTML="insert algorithm #15";}
+   if (algnumber==15){
+   document.getElementById("algorithm").innerHTML="insert algorithm #16";}
+   if (algnumber==16){
+   document.getElementById("algorithm").innerHTML="insert algorithm #17";}
+   if (algnumber==16){
+   document.getElementById("algorithm").innerHTML="insert algorithm #17";}
+   if (algnumber==17){
+   document.getElementById("algorithm").innerHTML="insert algorithm #18";}
+   if (algnumber==18){
+   document.getElementById("algorithm").innerHTML="insert algorithm #18";}
+   if (algnumber==19){
+   document.getElementById("algorithm").innerHTML="insert algorithm #19";}
+   if (algnumber==20){
+   document.getElementById("algorithm").innerHTML="insert algorithm #20";}
+   if (algnumber==21){
+   document.getElementById("algorithm").innerHTML="insert algorithm #21";}
+   if (algnumber==22){
+   document.getElementById("algorithm").innerHTML="insert algorithm #22";}
+   if (algnumber==23){
+   document.getElementById("algorithm").innerHTML="insert algorithm #23";}
+   if (algnumber==24){
+   document.getElementById("algorithm").innerHTML="insert algorithm #24";}
+   if (algnumber==25){
+   document.getElementById("algorithm").innerHTML="insert algorithm #25";}
+   if (algnumber==26){
+   document.getElementById("algorithm").innerHTML="insert algorithm #26";}
+   if (algnumber==27){
+   document.getElementById("algorithm").innerHTML="insert algorithm #27";}
+   if (algnumber==28){
+   document.getElementById("algorithm").innerHTML="insert algorithm #28";}
+   if (algnumber==29){
+   document.getElementById("algorithm").innerHTML="insert algorithm #29";}
+   if (algnumber==30){
+   document.getElementById("algorithm").innerHTML="insert algorithm #30";}
+   if (algnumber==31){
+   document.getElementById("algorithm").innerHTML="insert algorithm #31";}
+   if (algnumber==32){
+   document.getElementById("algorithm").innerHTML="insert algorithm #32";}
+   if (algnumber==33){
+   document.getElementById("algorithm").innerHTML="insert algorithm #33";}
+   if (algnumber==34){
+   document.getElementById("algorithm").innerHTML="insert algorithm #34";}
+   if (algnumber==35){
+   document.getElementById("algorithm").innerHTML="insert algorithm #35";}
+   if (algnumber==36){
+   document.getElementById("algorithm").innerHTML="insert algorithm #36";}
+   if (algnumber==37){
+   document.getElementById("algorithm").innerHTML="insert algorithm #37";}
+   if (algnumber==38){
+   document.getElementById("algorithm").innerHTML="insert algorithm #38";}
+   if (algnumber==39){
+   document.getElementById("algorithm").innerHTML="insert algorithm #39";}
+   if (algnumber==40){
+   document.getElementById("algorithm").innerHTML="insert algorithm #40";}
+   if (algnumber==41){
+   document.getElementById("algorithm").innerHTML="insert algorithm #41";}
+   if (algnumber==42){
+   document.getElementById("algorithm").innerHTML="insert algorithm #42";}
+   if (algnumber==43){
+   document.getElementById("algorithm").innerHTML="insert algorithm #43";}
+   if (algnumber==44){
+   document.getElementById("algorithm").innerHTML="insert algorithm #44";}
+   if (algnumber==45){
+   document.getElementById("algorithm").innerHTML="insert algorithm #45";}
+   if (algnumber==46){
+   document.getElementById("algorithm").innerHTML="insert algorithm #46";}
+   if (algnumber==47){
+   document.getElementById("algorithm").innerHTML="insert algorithm #47";}
+   if (algnumber==48){
+   document.getElementById("algorithm").innerHTML="insert algorithm #48";}
+   if (algnumber==49){
+   document.getElementById("algorithm").innerHTML="insert algorithm #49";}
+   if (algnumber==50){
+   document.getElementById("algorithm").innerHTML="insert algorithm #50";}
+   if (algnumber==51){
+   document.getElementById("algorithm").innerHTML="insert algorithm #51";}
+   if (algnumber==52){
+   document.getElementById("algorithm").innerHTML="insert algorithm #52";}
+   if (algnumber==53){
+   document.getElementById("algorithm").innerHTML="insert algorithm #53";}
+   if (algnumber==54){
+   document.getElementById("algorithm").innerHTML="insert algorithm #54";}
+   if (algnumber==55){
+   document.getElementById("algorithm").innerHTML="insert algorithm #55";}
+   if (algnumber==56){
+   document.getElementById("algorithm").innerHTML="insert algorithm #56";}
+   if (algnumber==57){
+   document.getElementById("algorithm").innerHTML="insert algorithm #57";}
+   if (algnumber==58){
+   document.getElementById("algorithm").innerHTML="insert algorithm #58";}
+   if (algnumber==59){
+   document.getElementById("algorithm").innerHTML="insert algorithm #59";}
+   if (algnumber==60){
+   document.getElementById("algorithm").innerHTML="insert algorithm #60";}
+   if (algnumber==61){
+   document.getElementById("algorithm").innerHTML="insert algorithm #61";}
+   if (algnumber==62){
+   document.getElementById("algorithm").innerHTML="insert algorithm #62";}
+   if (algnumber==63){
+   document.getElementById("algorithm").innerHTML="insert algorithm #63";}
+   if (algnumber==64){
+   document.getElementById("algorithm").innerHTML="insert algorithm #64";}
+   if (algnumber==65){
+   document.getElementById("algorithm").innerHTML="insert algorithm #65";}
+   if (algnumber==66){
+   document.getElementById("algorithm").innerHTML="insert algorithm #66";}
+   if (algnumber==67){
+   document.getElementById("algorithm").innerHTML="insert algorithm #67";}
+  if (algnumber==68){
+   document.getElementById("algorithm").innerHTML="insert algorithm #68";}
+  if (algnumber==69){
+   document.getElementById("algorithm").innerHTML="insert algorithm #69";}
+  if (algnumber==70){
+   document.getElementById("algorithm").innerHTML="insert algorithm #70";}
+  if (algnumber==71){
+   document.getElementById("algorithm").innerHTML="insert algorithm #71";}
+  if (algnumber==72){
+   document.getElementById("algorithm").innerHTML="insert algorithm #72";}
+  if (algnumber==73){
+   document.getElementById("algorithm").innerHTML="insert algorithm #73";}
+  if (algnumber==74){
+   document.getElementById("algorithm").innerHTML="insert algorithm #74";}
+  if (algnumber==75){
+   document.getElementById("algorithm").innerHTML="insert algorithm #75";}
+  if (algnumber==76){
+   document.getElementById("algorithm").innerHTML="insert algorithm #76";}
+  if (algnumber==77){
+   document.getElementById("algorithm").innerHTML="insert algorithm #77";}
+  if (algnumber==78){
+   document.getElementById("algorithm").innerHTML="insert algorithm #78";}
+  if (algnumber==79){
+   document.getElementById("algorithm").innerHTML="insert algorithm #79";}
+  if (algnumber==80){
+   document.getElementById("algorithm").innerHTML="insert algorithm #80";}
+  if (algnumber==81){
+   document.getElementById("algorithm").innerHTML="insert algorithm #81";}
+  if (algnumber==82){
+   document.getElementById("algorithm").innerHTML="insert algorithm #82";}
+  if (algnumber==83){
+   document.getElementById("algorithm").innerHTML="insert algorithm #83";}
+  if (algnumber==84){
+   document.getElementById("algorithm").innerHTML="insert algorithm #84";}
+  if (algnumber==85){
+   document.getElementById("algorithm").innerHTML="insert algorithm #85";}
+  if (algnumber==86){
+   document.getElementById("algorithm").innerHTML="insert algorithm #86";}
+  if (algnumber==87){
+   document.getElementById("algorithm").innerHTML="insert algorithm #87";}
+  if (algnumber==88){
+   document.getElementById("algorithm").innerHTML="insert algorithm #88";}
+  if (algnumber==89){
+   document.getElementById("algorithm").innerHTML="insert algorithm #89";}
+  if (algnumber==90){
+   document.getElementById("algorithm").innerHTML="insert algorithm #90";}
+  if (algnumber==91){
+   document.getElementById("algorithm").innerHTML="insert algorithm #91";}
+  if (algnumber==92){
+   document.getElementById("algorithm").innerHTML="insert algorithm #92";}
+  if (algnumber==93){
+   document.getElementById("algorithm").innerHTML="insert algorithm #93";}
+}
+
+
 </script>
 <body>
 TTLL Scrambler<br/>
@@ -309,7 +511,11 @@ PLL <input type="checkbox" name="set" value="PLL" id="PLL"><br/>
 <input type="button" value="Scramble" onClick="scramble();">
 <p id="scramble">
 </p>
-<p id="test">
+<input type="button" value="Solution" onClick="solution();">
+
+<p id="algorithm">
 </p>
+
+
 </body>
 </html>
